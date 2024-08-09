@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head>div{
+    display: inline-block;
+    height: 50px;
+    margin-top: 20px;
+
+}
+#head{
+    background-color: #a8dadc;
+     margin-top: 10px;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    /*margin-left: 10px; */
+}
+#head>div:first-child{
+    margin-left: 20px;
+}
+#head>div:nth-child(2){
+    margin-left:400px;
+}
+#headleft>div{
+    display: inline-block;
+    margin: 0 40px;
+}
+#About{
+    background-color: #f6f7f6;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.pic1{
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.pro{
+    display: inline-block;
+}
+.con{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    font-size: 20px;
+    color: #003566;
+}
+.con a{
+    text-decoration: none;
+    color: #003566;
+}
+.pic2{
+   width: 500px;
+}
+.pros{
+    width: 500px;
+}
+#projectpic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+#projectpic h3{
+    margin-top: 20px;
+    padding-left: 5px;
+    
+}
+#projects{
+    margin-top: 20px;
+    background-color: #edf2f4;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: 480px;
+}
+#projectpic>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color: #f8f9fa;
+}
+#projectpic p{
+    padding-left: 5px;
+    margin-bottom: 8px;
+}
+.skills>h2{
+    text-align: center;
+    margin-top: 20px;
+   
+    padding-top: 10px;
+}
+.skills{
+    background-color: #edf2f4;
+    height: 350px;
+
+}
+#skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    /* background-color: #edf2f4;   */
+}
+#skill>div{
+
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f1faee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    
+}
+/* #sskill:hover{
+    height: 220px;
+}
+.sskill2:hover{
+    height: 220px;
+} */
+.vs{
+    width: 400px;
+}
+.git{
+    width: 400px;
+}
+#tools{
+    background-color: #edf2f4;
+    margin-top: 20px;
+    text-align: center;
+    height: 400px;
+}
+#tools>h2{
+    padding-top: 20px;
+    
+}
+
+.tool{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.tool>div{
+    margin-top: 20px;
+    height: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#contact{
+    text-align: center ;
+    margin-top: 20px;
+    padding-top: 40px;
+    height: 250px;
+    font-size: 25px;
+    background-color: #edf2f4;
+    
+}
+div>input{
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+}
+#whatsapp{
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    
+    
+}
+#whatsapp:hover{
+    font-size: 25px;
+}
